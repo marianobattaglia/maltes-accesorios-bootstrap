@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Maltes Accesorios</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <header>
+
+
+
+        <!-- navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-1 d-flex flex-column">
+
+            <div class="container-fluid d-none d-lg-flex"> <!--xs a lg no aparece-->
+                <a class="navbar-brand" href="index.html">
+                  <img src="imagenes/logo-maltes.png" alt="" height="50"/>
+                </a>
+  
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button>
+
+                </form>
+
+                <div class="sub-header panel-usuario">
+                    <i class="bi bi-chat"></i>
+                    <i class="bi bi-person"></i>
+                    <i class="bi bi-cart2"></i>
+                </div>
+            </div >
+
+            <div class="d-flex flex-column text-center">
+                <a class="navbar-brand d-sm-block d-lg-none" href="index.html">
+                    <img src="imagenes/logo-maltes.png" alt="" height="50"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="faq.html">Preguntas frecuentes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">Quienes somos</a>
+                      </li>
+                    </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Carrousel -->
+
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/imagen-central.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Maltes | Accesorios en Plata 925</h5>
+              <p><a href="productos.html" class="link-light bolder">Ver nuestros productos</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/imagen-central-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Maltes | Accesorios en Plata 925</h5>
+              <p><a href="productos.html" class="link-light bolder">Ver nuestros productos</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/imagen-central-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Maltes | Accesorios en Plata 925</h5>
+              <p><a href="productos.html" class="link-light bolder">Ver nuestros productos</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+    </div>
+
+    <hr class="m-0">    
+    
+    <!-- Footer-->
+
+    <footer>
+
+      <section class="p-5">
+        <div class="container">
+          <div class="row text-center gy-5">
+            <div class="col-md">
+              <div class="col col-md">
+                <i class="bi bi-bag-fill p-3"> Envíos a todo el país</i>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="col col-md">
+                <i class="bi bi-credit-card p-3"> Todos los medios de pago</i>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="col col-md">
+                <i class="bi bi-check-circle p-3"> Tu compra segura</i>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="col col-md">
+                <i class="bi bi-arrow-counterclockwise p-3"> Politica de devoluciones</i>
+              </div>
+            </div>
+
+      </section>
+
+      <section class="p-5 bg-secondary bg-gradient bg-opacity-10">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md">
+              <div class="col col-md bolder">
+                <h5>Categorias</h5>
+                  <ul class="list-unstyled ">
+                    <li><a href="index.html" class="link-secondary">Inicio</a></li>
+                    <li><a href="productos.html" class="link-secondary">Productos</a></li>
+                    <li><a href="contacto.html" class="link-secondary">Contacto</a></li>
+                    <li><a href="faq.html" class="link-secondary">Preguntas frecuentes</a></li>  
+                  </ul>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="col col-md bolder">
+                <h5>Contactanos</h5>
+                  <ul class="list-unstyled ">
+                    <li><i class="bi bi-envelope pe-2"></i><a href="mailto:maltesaccesorios@gmail.com" class="link-secondary">maltesaccesorios@gmail.com</a></li>
+                    <li><i class="bi bi-geo-alt-fill pe-2"></i><a href="https://goo.gl/maps/L6qqWUUn9dYEBtK5A" target="_blank" class="link-secondary">Sarmiento 1875, San Martin</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="col col-md bolder">
+                <h5>Redes sociales</h5>
+                  <ul class="list-unstyled d-flex">
+                    <li><i class="bi bi-instagram pe-2"></i></li>
+                    <li><i class="bi bi-facebook pe-2"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                  </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+        <section class="p-5 bg-secondary bg-gradient">
+          <div class="container d-flex flex-column text-center ">
+            <h5>Medios de pago</h5>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="bi bi-credit-card pe-2"></i>
+              </li>
+              <li>
+                <i class="bi bi-credit-card-2-back-fill pe-2"></i>
+              </li>
+              <li>
+                <i class="bi bi-credit-card-2-front pe-2"></i>
+              </li>
+              <li>
+                <i class="bi bi-cash-stack pe-2"></i>
+              </li>
+              <li>
+                <i class="bi bi-paypal pe-2"></i>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+  </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
